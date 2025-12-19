@@ -1,0 +1,53 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.contador-container {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contador-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contador-display {
+  background: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.contador-display h2 {
+  font-size: 72px;
+  color: #667eea;
+  margin: 0;
+}
+
+.botao-incrementar {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.botao-incrementar:hover {
+  background: #764ba2;
+  transform: scale(1.05);
+}
+
+.botao-incrementar:active {
+  transform: scale(0.95);
+}
